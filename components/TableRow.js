@@ -15,7 +15,7 @@ const TableRow = ({ item, idx, i }) => {
           scope="row"
           className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white"
         >
-          {item.name ? item.name : "Annonymous User"}
+          {item.name ? item.name : "Anonymous User"}
         </th>
         <td className="py-4 px-6">
           {item.stars && (
