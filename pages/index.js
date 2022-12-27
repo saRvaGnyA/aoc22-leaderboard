@@ -66,7 +66,7 @@ function Home({ leaderboard }) {
             </tr>
           </thead>
           <tbody>
-            {mem.slice(i + 1, 12 + i).map((item, idx) => {
+            {mem.slice(i, 12 + i).map((item, idx) => {
               return <TableRow i={i} item={item} idx={idx} key={item.id} />;
             })}
           </tbody>
